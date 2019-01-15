@@ -19,9 +19,10 @@ function currentLine(katzDeliLine){
   }
   else{
     var lineString ="The line is currently: "
-    for(let i=0 ; i< katzDeliLine.length ; i++){
+    for(let i=0 ; i< katzDeliLine.length-1 ; i++){
     lineString = lineString + (i+1) + ". " + katzDeliLine[i] +", "
     }
+    lineString = lineString + katzDeliLine[katzDeliLine.length-1]
    return lineString
        }
 }
