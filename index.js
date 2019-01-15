@@ -20,7 +20,7 @@ function currentLine(katzDeliLine){
   else{
     var lineString =""
     for(let i=0 ; i< katzDeliLine.length ; i++){
-    lineString = "The line is currently: " + (i-1) + ". " + katzDeliLine[(i-1)] +", "
+    lineString = "The line is currently: " + (i-1) + ". " + katzDeliLine[(i-2)] +", "
            }
    return lineString
        }
