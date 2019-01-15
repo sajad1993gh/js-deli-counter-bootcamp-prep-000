@@ -22,7 +22,7 @@ function currentLine(katzDeliLine){
     for(let i=0 ; i< katzDeliLine.length ; i++){
     lineString = lineString + (i+1) + ". " + katzDeliLine[i] +", "
            }
-    lineString = lineString - ","
+    lineString = lineString - " ,"
    return lineString
        }
 }
